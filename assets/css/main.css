@@ -807,6 +807,7 @@ form  button{
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
+  text-align: center;
   color: var(--color-secondary);
 }
 
@@ -870,6 +871,7 @@ form  button{
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .services .service-item .readmore {
@@ -2675,7 +2677,7 @@ form  button{
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer.jpeg") top center no-repeat;
+  background: url("../img/footer1.jpeg") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
