@@ -32,3 +32,4 @@ formulario.addEventListener('submit', async(e) => {
 	registro.classList.remove('activo');
 	exito.classList.add('activo');
 });
+

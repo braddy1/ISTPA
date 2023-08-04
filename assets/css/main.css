@@ -976,6 +976,7 @@ form  button{
 
 .features .tab-pane p:last-child {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -2677,7 +2678,7 @@ form  button{
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer1.jpeg") top center no-repeat;
+  background: url("../img/footerfinal.jpeg") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
@@ -2992,7 +2993,41 @@ p{
 	}
 }
 
+.popup {
+  background-color: var(--color-secondary);
+  width: 400px;
+  padding: 10px 20px;
+  position: relative;
+  transform: translate(-50%,0%);
+  left: 50%;
+  top:80%;
+  border-radius: 8px;
+  display: none;
+  
+}
 
-/* *CARRUSEL CARDS */
+.popup button{
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  color: #c5c5c5;
+  border: none;
+  outline: none;
+  cursor: pointer;  
+
+}
+.popup a{
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: var(--color-primary);
+  color: #ffff;
+  text-decoration: none;
+  padding: 5px 0;  
+}
+
 
 
