@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", function() {
     var modalContainer = document.getElementById("modal-container");
     var closeButton = document.getElementById("close");
@@ -25,4 +23,3 @@ document.addEventListener("DOMContentLoaded", function() {
   
     closeButton.addEventListener("click", closeModal);
   });
-
