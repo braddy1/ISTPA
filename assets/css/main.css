@@ -2848,7 +2848,52 @@ p{
 	}
 }
 
+.modal-container{
+  background-color: rgba(0, 0, 0, 0.6);
+  
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.modal{
+  color: white;
+  background-color: teal;
+  border-radius:5px ;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  position: absolute;
+  overflow: hidden;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 100%;
+  width: 500px;
+  height: 300px;
+}
 
-/* *CARRUSEL CARDS */
-
-
+.modal-container img {
+  padding: 1.2rem;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  display: ;
+  
+}
+.close-btn{
+  background: transparent;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  left: 70%;
+  bottom: 0%;
+  transform: translate(-5%, -50%);
+}
